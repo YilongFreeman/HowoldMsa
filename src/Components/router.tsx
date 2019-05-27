@@ -11,7 +11,7 @@ export const AppRouter: React.StatelessComponent<{}> = () => {
         <BrowserRouter>
             <div>
                 <main>
-                 <Route exact={true} path="/" component={Contact} />
+                 <Route exact={true} path="/" component={Howold} />
                     <Route path="/Contact" component={Contact} />
                     <Route path="/Howold" component={Howold} />
                   
